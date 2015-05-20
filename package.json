@@ -1,9 +1,8 @@
 {
-  "name": "seti-monokai",
+  "name": "ax-monokai-syntax",
   "theme": "syntax",
-  "version": "0.3.1",
-  "private": true,
-  "description": "A monokai theme for the seti ui",
+  "version": "0.0.1",
+  "description": "A Monokai theme for the Atom editor (SETI UI)",
   "license": "MIT",
   "engines": {
     "atom": ">0.174.0 <2.0.0"
@@ -14,12 +13,7 @@
     "syntax",
     "theme"
   ],
-  "homepage": "https://github.com/joaoafrmartins/seti-monokai",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/joaoafrmartins/seti-monokai.git"
-  },
-  "bugs": {
-    "url": "https://github.com/joaoafrmartins/seti-monokai/issues"
-  }
+  "homepage": "https://github.com/alexbarton/atom-ax-monokai-syntax",
+  "repository": "https://github.com/alexbarton/atom-ax-monokai-syntax.git",
+  "bugs": "https://github.com/alexbarton/atom-ax-monokai-syntax/issues"
 }
