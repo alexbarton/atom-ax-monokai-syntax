@@ -10,7 +10,9 @@
   },
   "keywords": [
     "monokai",
-    "seti-ui"
+    "seti-ui",
+    "syntax",
+    "theme"
   ],
   "homepage": "https://github.com/joaoafrmartins/seti-monokai",
   "repository": {
