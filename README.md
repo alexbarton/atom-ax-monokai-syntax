@@ -1,7 +1,12 @@
-# Monokai theme
+# AX Monokai theme
 
-A monokai syntax theme for Atom.
+A Monokai syntax theme for the Atom editor.
 
+Maintainer: [Alex Barton](https://github.com/alexbarton), <alex@barton.de>;
+Project Home: [GitHub](https://github.com/alexbarton/atom-ax-monokai-syntax).
+
+Based on the [seti-monokai](https://github.com/joaoafrmartins/seti-monokai)
+theme of [João Afonso Martins](https://github.com/joaoafrmartins).
 Originally converted from the [TextMate](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme)
 theme using the [TextMate bundle converter](http://atom.io/docs/latest/converting-a-text-mate-theme).
 
