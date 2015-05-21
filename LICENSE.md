@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
-Copyright (c) 2015 Alexander Barton
+- Copyright (c) 2014 João Afonso Martins
+- Copyright (c) 2015 Alexander Barton
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
