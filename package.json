@@ -2,14 +2,13 @@
   "name": "ax-monokai-syntax",
   "theme": "syntax",
   "version": "0.2.0",
-  "description": "A Monokai theme for the Atom editor (SETI UI)",
+  "description": "A Monokai theme for the Atom editor",
   "license": "MIT",
   "engines": {
     "atom": ">=1.13 <2.0.0"
   },
   "keywords": [
     "monokai",
-    "seti-ui",
     "syntax",
     "theme"
   ],
