@@ -1,0 +1,73 @@
+// Classes for the "language-markdown" package,
+// See <https://github.com/burodepeper/language-markdown>.
+
+@_background: @syntax-background-color;
+@_text: @syntax-text-color;
+@_syntax: #A6E22E;
+@_syntax_alt: darken(@_syntax, 15%);
+@_content: #009900;
+@_variable: #0099CC;
+@_constant: #EE1100;
+@_highlight: #FFDD00;
+@_comment: #75715E;
+@_neutral: mix(@_text, @_background);
+
+// Generic markup styles
+
+.syntax--markup {
+
+  &.syntax--bold,
+  &.syntax--heading,
+  &.syntax--strong.syntax--emphasis {
+    font-weight: bold;
+  }
+
+  &.syntax--italic,
+  &.syntax--emphasis:not(.syntax--strong) {
+    font-style: italic;
+  }
+
+  &.syntax--underline {
+    text-decoration: underline;
+  }
+
+  &.syntax--strike {
+    text-decoration: line-through;
+  }
+
+  &.syntax--heading,
+  &.syntax--substitution,
+  &.syntax--changed {
+    color: @_syntax;
+  }
+
+  &.syntax--inserted,
+  &.syntax--addition,
+  &.syntax--quote {
+    color: @_content;
+  }
+
+  &.syntax--deletion,
+  &.syntax--hr {
+    color: @_constant;
+  }
+
+  &.syntax--link {
+    color: @_variable;
+  }
+
+  &.syntax--list {
+    & > .syntax--punctuation {
+      color: @_syntax_alt;
+    }
+  }
+
+  &.syntax--raw,
+  &.syntax--code {
+    color: @_neutral;
+  }
+
+ .syntax--punctuation {
+   opacity: 0.5;
+ }
+}
